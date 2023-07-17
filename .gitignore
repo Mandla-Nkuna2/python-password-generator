@@ -1,0 +1,65 @@
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Database
+*.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Environment variables
+.env
+
+# Local development settings
+local_settings.py
+
+# Secret keys
+*.key
+
+# Log files
+*.log
+
+# Caches
+*.cache/
+
+# Virtual environment
+.venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# Compiled translations
+locale/
+
+# Unit test reports
+htmlcov/
+
+# Documentation
+/doc/
+
+# Compiled bytecode
+*.pyo
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Dependency directories
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Miscellaneous
+*.swp
+
+# Allow these files in the root directory
+!.gitignore
+!README.md
